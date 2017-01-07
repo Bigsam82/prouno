@@ -20,12 +20,15 @@ namespace prouno
             int month = int.Parse(Console.ReadLine());
             Console.WriteLine("What is your favorite ROYGBIV color,if you don't know what a ROYGBIV color is type HELP");
             string roygbiv = (Console.ReadLine());
+            
 
             if (roygbiv == "help")
             {
                 Console.WriteLine("If you do not know what ROYGBIV colors they are one of the following \n red, \n orange, \n yellow,\n green, \n blue,\n indigo, \n violet");
                 roygbiv = (Console.ReadLine());
+
             }
+            roygbiv.ToLower();
             Console.WriteLine("How many siblings do you have");
             int siblings = int.Parse(Console.ReadLine());
 
@@ -160,20 +163,13 @@ namespace prouno
             }
 
 
-            Console.WriteLine( firstName + " " + lastName + " " + retired +" " +  bank + " "+ ride );
+            Console.WriteLine( firstName + " " + lastName + " " + retired +" " +  bank + " "+ ride + vacay );
 
         }
     }
 }
 
 
-
-
-//The user’s fortune should be written as such:
-//[First Name]
-//[Last Name]
-//will retire in [# of Years] with [Amount of Money] in the bank, a vacation home in [Location] and a [Mode of Transportation].
-//Program should be able to handle whether or not a user inputs capital or lowercase letters.
 
 
 
