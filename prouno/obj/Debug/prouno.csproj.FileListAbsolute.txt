@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\prouno\prouno\bin\Debug\prouno.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\prouno\prouno\bin\Debug\prouno.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\prouno\prouno\bin\Debug\prouno.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\prouno\prouno\obj\Debug\prouno.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\prouno\prouno\obj\Debug\prouno.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\prouno\prouno\obj\Debug\prouno.pdb
