@@ -29,7 +29,7 @@ namespace prouno
 
             }
             roygbiv.ToLower();
-            Console.WriteLine("How many siblings do you have");
+            Console.WriteLine(" How many siblings do you have ");
             int siblings = int.Parse(Console.ReadLine());
 
 
@@ -41,41 +41,41 @@ namespace prouno
 
 
 
-                retired = "you retire in 10 years";
+                retired = " you retire in 10 years ";
 
             }
 
             else
             {
-                retired = "you retire in 20 years";
+                retired = " you retire in 20 years ";
             }
 
             string vacay = "";
             if (siblings == 0)
 
             {
-                vacay = "you have a vacation home in florida";
+                vacay = " you have a vacation home in Florida ";
             }
 
             else if (siblings == 1)
 
             {
 
-                vacay = "you have a vaction home in mexico";
+                vacay = " you have a vaction home in Mexico ";
             }
 
 
             else if (siblings == 2)
 
             {
-                vacay = "you have a vacation home in Germany";
+                vacay = " you have a vacation home in Germany ";
             }
 
 
             else if (siblings == 3)
 
             {
-                vacay = "you have a vacation home in Dubai";
+                vacay = " you have a vacation home in Dubai ";
             }
 
 
@@ -84,18 +84,18 @@ namespace prouno
 
             {
 
-                vacay = "you have a vaction home in Tha CLEVE";
+                vacay = " you have a vaction home in Tha CLEVE ";
             }
             if (siblings >= 4)
             {
 
-                vacay = "you have a vaction home in Iraq";
+                vacay = " you have a vaction home in Iraq ";
             }
             string ride = "";
             if (roygbiv == "red")
 
             {
-                ride = "You own a boat";
+                ride = " You own a boat ";
 
             }
 
@@ -103,28 +103,28 @@ namespace prouno
             else if (roygbiv == "orange")
 
             {
-                ride = "you own a car";
+                ride = " you own a car ";
             }
 
 
             else if (roygbiv == "yellow")
 
             {
-                ride = "you own a bike";
+                ride = " you own a bike ";
             }
 
 
             else if (roygbiv == "green")
 
             {
-                ride = "you own a scooter";
+                ride = " you own a scooter ";
             }
 
 
             if (roygbiv == "blue")
 
             {
-                ride = "you have skates";
+                ride = " you have skates ";
 
             }
 
@@ -153,7 +153,7 @@ namespace prouno
             {
                 bank = " you have $500k in the bank ";
             }
-            if (month < 8 && month > 12)
+            if (month <= 12 && month >= 8)
             {
                 bank = " You have $1.5 million in the bank ";
             }
